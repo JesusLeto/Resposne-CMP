@@ -1,0 +1,293 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none; }
+
+button:hover {
+  box-shadow: 0 10px 10px 3px rgba(0, 0, 0, 0.2); }
+
+.content {
+  max-width: 1440px;
+  padding: 0 135px; }
+
+.prevTitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 23px; }
+  .prevTitle .circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #F07566;
+    margin-right: 12px; }
+  .prevTitle span {
+    font-family: "Hind Siliguri", sans-serif;
+    color: #F07566;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px; }
+
+.title {
+  width: 340px;
+  font-family: "Hind Siliguri", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 64px;
+  margin-bottom: 26px; }
+
+.header {
+  position: relative;
+  overflow: hidden; }
+  .header__background {
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    z-index: -100; }
+  .header__navbar {
+    margin-bottom: 67px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    margin-top: 16px;
+    align-items: center; }
+    .header__navbar--logo {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 48px;
+      margin-right: 42px;
+      font-family: "Hind Siliguri", sans-serif; }
+    .header__navbar--links ul {
+      display: flex; }
+      .header__navbar--links ul li {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-right: 42px;
+        font-family: "Work Sans", sans-serif; }
+    .header__navbar--btn {
+      width: 138px;
+      height: 48px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #F07566;
+      background: none;
+      border: 1px solid rgba(240, 117, 102, 0.236809);
+      border-radius: 6px;
+      font-family: "Hind Siliguri", sans-serif; }
+  .header__content {
+    display: flex;
+    justify-content: space-between; }
+    .header__content--text {
+      margin-top: 120px; }
+      .header__content--text .title {
+        position: relative; }
+        .header__content--text .title--text {
+          max-width: 330px;
+          font-family: "Hind Siliguri", sans-serif;
+          font-weight: 700;
+          font-size: 72px;
+          line-height: 80px;
+          margin-bottom: 55px; }
+          .header__content--text .title--text span {
+            color: #4eb282; }
+          .header__content--text .title--text img {
+            position: absolute;
+            top: 154px; }
+      .header__content--text .description {
+        max-width: 470px;
+        font-family: "Work Sans", sans-serif;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 35px; }
+      .header__content--text .btn {
+        width: 154px;
+        height: 48px;
+        border: none;
+        border-radius: 6px;
+        color: white;
+        font-family: "Hind Siliguri", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        background-color: #F07566;
+        text-transform: uppercase;
+        margin-bottom: 208px; }
+
+.about__block {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 85px;
+  margin-top: 192px; }
+  .about__block--text .subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Hind Siliguri", sans-serif;
+    margin-bottom: 34px; }
+  .about__block--text li {
+    display: flex;
+    margin-bottom: 10px; }
+    .about__block--text li span {
+      margin-left: 8px;
+      font-size: 16px;
+      font-weight: 400;
+      font-family: "Work Sans", sans-serif; }
+  .about__block--btn {
+    margin-top: 37px;
+    width: 170px;
+    height: 48px;
+    border: none;
+    background-color: #F07566;
+    font-weight: 700;
+    font-family: 16px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-family: "Hind Siliguri", sans-serif; }
+
+.tiles {
+  position: relative; }
+  .tiles__background {
+    position: absolute;
+    z-index: -100; }
+  .tiles__list {
+    padding-top: 179px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 304px; }
+  .tiles__block {
+    width: 270px;
+    height: 368px;
+    background-color: white;
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    border-radius: 8px;
+    padding: 32px 32px 32px 34px; }
+    .tiles__block--img {
+      width: 64px;
+      height: 64px; }
+    .tiles__block--imgShadow {
+      width: 64px;
+      height: 64px;
+      display: none; }
+    .tiles__block--title {
+      margin-top: 89px;
+      text-transform: uppercase;
+      font-family: "Hind Siliguri", sans-serif;
+      font-weight: 700;
+      font-size: 24px; }
+    .tiles__block--description {
+      margin-top: 18px;
+      font-family: "Work Sans", sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      color: #3333337F;
+      opacity: 50%; }
+
+.features__block {
+  display: flex;
+  justify-content: space-between; }
+  .features__block--text .title {
+    width: 387px;
+    margin-bottom: 28px; }
+  .features__block--text .description {
+    max-width: 470px;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+    color: #333333;
+    margin-bottom: 21px; }
+  .features__block--text .window {
+    width: 470;
+    height: 144px;
+    box-shadow: 0px 24px 48px rgba(0, 17, 86, 0.0799083);
+    border-radius: 8px;
+    padding: 25px 32px;
+    position: relative; }
+    .features__block--text .window--wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      z-index: 10; }
+    .features__block--text .window__header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 11px; }
+      .features__block--text .window__header span {
+        margin-left: 16px;
+        font-family: "Hind Siliguri", sans-serif;
+        font-size: 24px;
+        font-weight: 700; }
+      .features__block--text .window__header--img {
+        width: 24px;
+        height: 23px; }
+      .features__block--text .window__header--imgShadow {
+        display: none;
+        width: 24px;
+        height: 23px; }
+    .features__block--text .window__description {
+      max-width: 406px;
+      font-family: "Work Sans", sans-serif;
+      font-size: 14px;
+      font-weight: 400;
+      color: #3333337F;
+      opacity: 50%; }
+
+@media (max-width: 700px) {
+  .content {
+    padding: 0 40px; }
+  .header__navbar .Burger--wrapper {
+    width: 48px;
+    height: 48px;
+    background-color: #F07566;
+    border-radius: 50%;
+    position: absolute;
+    right: 0;
+    z-index: 3; }
+    .header__navbar .Burger--wrapper span,
+    .header__navbar .Burger--wrapper span::before,
+    .header__navbar .Burger--wrapper span::after {
+      position: absolute;
+      top: 50%;
+      margin-top: -1px;
+      left: 50%;
+      margin-left: -11px;
+      display: block;
+      border-radius: 2px;
+      width: 22px;
+      height: 2px;
+      background-color: white; }
+    .header__navbar .Burger--wrapper span::before, .header__navbar .Burger--wrapper span::after {
+      content: " "; }
+    .header__navbar .Burger--wrapper span::before {
+      transform: translateY(-7px); }
+    .header__navbar .Burger--wrapper span::after {
+      transform: translateY(7px); }
+  .header__navbar .Burger--wrapper:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .header__navbar--links {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #F07566;
+    z-index: 2;
+    transform: translateY(-100%);
+    transition: 1s; }
+    .header__navbar--links ul {
+      display: block;
+      padding-top: 55px;
+      text-align: center; }
+  .header__navbar--btn {
+    display: none; }
+  .header__content--img {
+    display: none; } }
+
+.active {
+  transform: translateY(0); }
